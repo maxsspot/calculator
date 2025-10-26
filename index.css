@@ -11,6 +11,7 @@ body {
     background-color:#35454f;
     transform:scale(1.2);
     overflow:hidden;
+    position:fixed;
     text-align:center;
 }
 
