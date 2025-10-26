@@ -1,0 +1,77 @@
+* {
+    color:white;
+    font-family:"Rubik", sans-serif;
+    outline:none;
+    transition:all 0.25s;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color:#35454f;
+    transform:scale(1.2);
+    overflow:hidden;
+    text-align:center;
+}
+
+#calculations {
+    width:100vw;
+    height:60px;
+    background-color:black;
+    border:transparent;
+    text-indent:45px;
+    margin-top:-5px;
+    padding:5px;
+    transition:all 0s;
+}
+
+button {
+    cursor:pointer;
+    border-radius:50px;
+    border:transparent;
+    padding:5px;
+    width:65px;
+    height:65px;
+    font-size:large;
+    margin:2px;
+}
+
+.numericalButton {
+    background-color:rgb(35, 35, 35);
+}
+.numericalButton:hover {
+    background-color:rgb(45, 45, 45);
+}
+
+.functionButton {
+    background-color:rgb(120, 200, 120);
+}
+.functionButton:hover {
+    background-color:rgb(130, 200, 130);
+}
+
+.equalButton {
+    background-color:blueviolet;
+}
+.equalButton:hover {
+    background-color:rgb(146, 67, 220);
+}
+
+.row {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+#leftParen, #rightParen {
+    width:32px;
+}
+
+#extraKeys {
+    display:none;
+}
+
+#extraKeysControls {
+    color:rgb(164, 164, 164);
+    cursor:pointer;
+}
