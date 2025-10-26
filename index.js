@@ -26,16 +26,16 @@ function buttonsWork() {
         const extraKeys = document.getElementById("extraKeys");
         
         if (!isOpen) {
-            extraKeys.style.opacity="1";
+            extraKeys.style.visibility="hidden";
             isOpen=true;
             showExtraKeys.textContent="Hide Extra Keys ▼";
         } else {
-            extraKeys.style.opacity="0";
+            extraKeys.style.visibility="hidden";
             isOpen=false;
             showExtraKeys.textContent="Show Extra Keys ▲";
         }
         
-        document.getElementById("delete").style.opacity="1";
-        document.getElementById("clear").style.opacity="1";
+        document.getElementById("delete").style.visibility="visible";
+        document.getElementById("clear").style.visibility="visible";
     }
 }
