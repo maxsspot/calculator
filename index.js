@@ -28,13 +28,11 @@ function buttonsWork() {
         if (!isOpen) {
             extraKeys.style.opacity="1";
             isOpen=true;
-            showExtraKeys.textContent="Hide Extra Keys ▲";
-            //calculations.style.marginTop="9.375px";
+            showExtraKeys.textContent="Hide Extra Keys ▼";
         } else {
             extraKeys.style.opacity="0";
             isOpen=false;
-            showExtraKeys.textContent="Show Extra Keys ▼";
-            //calculations.style.marginTop="-5px";
+            showExtraKeys.textContent="Show Extra Keys ▲";
         }
     }
 }
