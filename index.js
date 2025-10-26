@@ -26,7 +26,7 @@ function buttonsWork() {
         const extraKeys = document.getElementById("extraKeys");
         
         if (!isOpen) {
-            extraKeys.style.visibility="hidden";
+            extraKeys.style.visibility="visible";
             isOpen=true;
             showExtraKeys.textContent="Hide Extra Keys ▼";
         } else {
