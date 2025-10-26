@@ -20,7 +20,7 @@ function buttonsWork() {
                 }
             }
 
-            calculations.scrollLeft = calculations.scrollWidth - calculations.clientWidth;
+            //calculations.scrollLeft = calculations.scrollWidth - calculations.clientWidth;
         }
     }
 
