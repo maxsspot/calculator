@@ -2,7 +2,7 @@ function buttonsWork() {
     const buttons = document.getElementsByTagName("button");
     const calculations = document.getElementById("calculations");
     const showExtraKeys = document.getElementById("extraKeysControls");
-    let isOpen = false;
+    let isOpen = true;
 
     for (i=0;i<buttons.length;i++) {
         buttons[i].onclick = function () {
