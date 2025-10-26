@@ -2,7 +2,6 @@
     color:white;
     font-family:"Rubik", sans-serif;
     outline:none;
-    transition:all 0.25s;
     margin:0;
     padding:0;
 }
@@ -37,6 +36,7 @@ button {
     height:65px;
     font-size:large;
     margin:2px;
+    transition:all 0.25s;
 }
 
 .numericalButton {
@@ -72,7 +72,7 @@ button {
 
 #extraKeys {
     visiblity:hidden;
-    transition:all 0s;
+    transition:none;
 }
 
 #extraKeysControls {
