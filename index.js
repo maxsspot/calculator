@@ -26,12 +26,12 @@ function buttonsWork() {
         const extraKeys = document.getElementById("extraKeys");
 
         if (!isOpen) {
-            extraKeys.style.display="inherit";
+            extraKeys.style.opacity="1";
             isOpen=true;
             showExtraKeys.textContent="Hide Extra Keys ▲";
             calculations.style.marginTop="9.375px";
         } else {
-            extraKeys.style.display="none";
+            extraKeys.style.opacity="0";
             isOpen=false;
             showExtraKeys.textContent="Show Extra Keys ▼";
             calculations.style.marginTop="-5px";
