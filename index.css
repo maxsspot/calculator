@@ -13,6 +13,7 @@ body {
     position:fixed;
     text-align:center;
     width:100%;
+    transition:all 0.25s;
 }
 
 #calculations {
@@ -36,7 +37,6 @@ button {
     height:65px;
     font-size:large;
     margin:2px;
-    transition:all 0.25s;
 }
 
 .numericalButton {
@@ -72,7 +72,7 @@ button {
 
 #extraKeys {
     visiblity:hidden;
-    transition:none;
+    opacity:1;
 }
 
 #extraKeysControls {
