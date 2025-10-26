@@ -27,10 +27,12 @@ function buttonsWork() {
         
         if (!isOpen) {
             extraKeys.style.visibility="visible";
+            extraKeys.style.opacity="1";
             isOpen=true;
             showExtraKeys.textContent="Hide Extra Keys ▼";
         } else {
             extraKeys.style.visibility="hidden";
+            extraKeys.style.opacity="0";
             isOpen=false;
             showExtraKeys.textContent="Show Extra Keys ▲";
         }
