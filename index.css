@@ -68,7 +68,7 @@ button {
 }
 
 #extraKeys {
-    display:none;
+    opacity:0;
 }
 
 #extraKeysControls {
