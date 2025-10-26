@@ -25,6 +25,9 @@ function buttonsWork() {
     showExtraKeys.onclick = function () {
         const extraKeys = document.getElementById("extraKeys");
 
+        document.getElementById("delete").style.opacity="1";
+        document.getElementById("clear").style.display="1";
+        
         if (!isOpen) {
             extraKeys.style.opacity="1";
             isOpen=true;
