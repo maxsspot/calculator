@@ -68,7 +68,7 @@ button {
 }
 
 #extraKeys {
-    opacity:0;
+    visiblity:hidden;
 }
 
 #extraKeysControls {
@@ -77,5 +77,5 @@ button {
 }
 
 #delete, #clear {
-    opacity:1;
+    visibility:visible;
 }
