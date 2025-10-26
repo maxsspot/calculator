@@ -19,10 +19,10 @@ function buttonsWork() {
                     calculations.value="Error In Calculation";
                 }
             }
+
+            calculations.scrollLeft = calculations.scrollWidth - calculations.clientWidth;
         }
     }
-
-    calculations.scrollLeft = calculations.scrollWidth - calculations.clientWidth;
 
     showExtraKeys.onclick = function () {
         const extraKeys = document.getElementById("extraKeys");
