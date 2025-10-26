@@ -10,7 +10,22 @@
     <body onload = "buttonsWork()">
         <br><br>
             <input id = "calculations" readonly />
-        <br><br><br><br><br><br><br><br><br>
+        <br>
+        <div id = "extraKeys"><br>
+            <div class = "row">
+                <button class = "functionButton">sqrt(</button>
+                <button class = "functionButton">sin(</button>
+                <button class = "functionButton">cos(</button>
+                <button class = "functionButton">tan(</button>
+            </div>
+            <div class = "row">
+                <button class = "functionButton">^</button>
+                <button class = "functionButton" id = "leftParen">(</button>
+                <button class = "functionButton" id = "rightParen">)</button>
+                <button class = "functionButton">DEL</button>
+                <button class = "functionButton">C</button>
+            </div>
+        </div><br>
         <div class = "row">
             <button class = "numericalButton">7</button>
             <button class = "numericalButton">8</button>
@@ -35,21 +50,6 @@
             <button class = "equalButton">=</button>
             <button class = "functionButton">+</button>
         </div>
-        <div id = "extraKeys"><br>
-            <div class = "row">
-                <button class = "functionButton">sqrt(</button>
-                <button class = "functionButton">sin(</button>
-                <button class = "functionButton">cos(</button>
-                <button class = "functionButton">tan(</button>
-            </div>
-            <div class = "row">
-                <button class = "functionButton">^</button>
-                <button class = "functionButton" id = "leftParen">(</button>
-                <button class = "functionButton" id = "rightParen">)</button>
-                <button class = "functionButton">DEL</button>
-                <button class = "functionButton">C</button>
-            </div>
-        </div><br>
         <span id = "extraKeysControls">Show Extra Keys ▼</span>
         <script src = "index.js"></script>
     </body>
