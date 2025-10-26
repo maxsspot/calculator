@@ -42,23 +42,23 @@ button {
 .numericalButton {
     background-color:rgb(35, 35, 35);
 }
-.numericalButton:hover {
+/*.numericalButton:hover {
     background-color:rgb(45, 45, 45);
-}
+}*/
 
 .functionButton {
     background-color:rgb(120, 200, 120);
 }
-.functionButton:hover {
+/*.functionButton:hover {
     background-color:rgb(130, 200, 130);
-}
+}*/
 
 .equalButton {
     background-color:blueviolet;
 }
-.equalButton:hover {
+/*.equalButton:hover {
     background-color:rgb(146, 67, 220);
-}
+}*/
 
 .row {
     display:flex;
