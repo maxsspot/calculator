@@ -69,6 +69,7 @@ button {
 
 #extraKeys {
     visiblity:hidden;
+    transition:all 0s;
 }
 
 #extraKeysControls {
