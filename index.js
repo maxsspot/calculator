@@ -22,6 +22,8 @@ function buttonsWork() {
         }
     }
 
+    calculations.scrollLeft = calculations.scrollWidth - calculations.clientWidth;
+
     showExtraKeys.onclick = function () {
         const extraKeys = document.getElementById("extraKeys");
         
