@@ -71,15 +71,14 @@ button {
 
 #extraKeys {
     visiblity:hidden;
-    opacity:1;
 }
 
 #extraKeysControls {
     color:rgb(164, 164, 164);
     cursor:pointer;
     position:fixed;
-    right:5px;
-    bottom:5px;
+    margin-right:5px;
+    margin-bottom:5px;
 }
 
 #delete, #clear {
