@@ -86,14 +86,17 @@ button {
 }
 
 #keyList {
-    position:fixed;
-    bottom:50px;
-    left:50%;
-    transform:translateX(-50%);
-    background-color:blue;
-    width:fit-content;
-    margin:0;
-    padding:10px;
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%) scale(1.2);
     transform-origin: top center;
-    transform:scale(1.2);
+    background-color: blue;
+    width: fit-content;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 10;
+    max-width: 100vw;
+    box-sizing: border-box;
 }
