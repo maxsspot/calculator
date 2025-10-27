@@ -80,6 +80,7 @@ button {
     right:0px;
     bottom:0px;
     background-color:red;
+    margin:auto;
 }
 
 #delete, #clear {
