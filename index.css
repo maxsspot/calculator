@@ -79,8 +79,13 @@ button {
     position:fixed;
     right:0px;
     bottom:0px;
+    background-color:red;
 }
 
 #delete, #clear {
     visibility:visible;
+}
+
+#keyList {
+    backgroind-color:blue;
 }
