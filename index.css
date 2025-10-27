@@ -75,7 +75,7 @@ button {
 #extraKeysControls {
     color:rgb(164, 164, 164);
     cursor:pointer;
-    postion:fixed;
+    position:fixed;
     bottom:5px;
     left:50%;
     transform:translateX(-50%);
