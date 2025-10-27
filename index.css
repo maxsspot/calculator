@@ -76,9 +76,8 @@ button {
     color:rgb(164, 164, 164);
     cursor:pointer;
     position:fixed;
-    right:0px;
-    bottom:0px;
-    background-color:red;
+    right:5px;
+    bottom:5px;
 }
 
 #delete, #clear {
@@ -87,7 +86,7 @@ button {
 
 #keyList {
     position: fixed;
-    bottom: calc(40px / 1.2); 
+    bottom: calc(30px / 1.2); 
     left: 50%;
     transform: translateX(-50%) scale(1.2);
     transform-origin: bottom center;
