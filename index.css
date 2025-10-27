@@ -75,9 +75,6 @@ button {
 #extraKeysControls {
     color:rgb(164, 164, 164);
     cursor:pointer;
-    position:fixed;
-    right:5px;
-    bottom:5px;
 }
 
 #delete, #clear {
