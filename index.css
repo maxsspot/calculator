@@ -75,6 +75,10 @@ button {
 #extraKeysControls {
     color:rgb(164, 164, 164);
     cursor:pointer;
+    postion:fixed;
+    bottom:5px;
+    left:50%;
+    transform:translateX(-50%);
 }
 
 #delete, #clear {
@@ -82,15 +86,15 @@ button {
 }
 
 #keyList {
-    position: fixed;
-    bottom: calc(30px / 1.2); 
-    left: 50%;
-    transform: translateX(-50%) scale(1.2);
-    transform-origin: bottom center;
-    width: fit-content;
-    margin: 0;
-    padding: 10px;
-    z-index: 10;
-    max-width: 100vw;
-    box-sizing: border-box;
+    position:fixed;
+    bottom:calc(30px / 1.2); 
+    left:50%;
+    transform:translateX(-50%) scale(1.2);
+    transform-origin:bottom center;
+    width:fit-content;
+    margin:0;
+    padding:10px;
+    z-index:10;
+    max-width:100vw;
+    box-sizing:border-box;
 }
