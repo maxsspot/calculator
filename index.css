@@ -8,8 +8,8 @@
 
 body {
     background-color:#35454f;
-    transform:scale(1.2);
-    overflow:hidden;
+    
+    /*overflow:hidden;*/
     text-align:center;
     width:100%;
     transition:all 0.25s;
@@ -95,4 +95,5 @@ button {
     width:fit-content;
     margin:0;
     padding:10px;
+    transform:scale(1.2);
 }
