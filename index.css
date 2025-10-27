@@ -87,10 +87,10 @@ button {
 
 #keyList {
     position: fixed;
-    bottom: 50px;
+    bottom: calc(50px / 1.2); 
     left: 50%;
     transform: translateX(-50%) scale(1.2);
-    transform-origin: top center;
+    transform-origin: bottom center;
     background-color: blue;
     width: fit-content;
     margin: 0;
