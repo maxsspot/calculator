@@ -16,7 +16,7 @@ function buttonsWork() {
                 try {
                     calculations.value=math.evaluate(calculations.value);
                 } catch (error) {
-                    calculations.value=error;
+                    calculations.value="Error";
                 }
             }
 
