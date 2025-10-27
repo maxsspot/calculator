@@ -88,8 +88,6 @@ button {
 
 #keyList {
     background-color:blue;
-    position:fixed;
-    bottom:0px;
     width:fit-content;
     margin:auto;
 }
