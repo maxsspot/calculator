@@ -95,5 +95,6 @@ button {
     width:fit-content;
     margin:0;
     padding:10px;
+    transform-origin: top center;
     transform:scale(1.2);
 }
