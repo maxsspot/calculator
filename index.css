@@ -80,7 +80,6 @@ button {
     right:0px;
     bottom:0px;
     background-color:red;
-    margin:auto;
 }
 
 #delete, #clear {
@@ -90,4 +89,5 @@ button {
 #keyList {
     background-color:blue;
     width:fit-content;
+    margin:auto;
 }
