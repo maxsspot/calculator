@@ -77,8 +77,8 @@ button {
     color:rgb(164, 164, 164);
     cursor:pointer;
     position:fixed;
-    margin-right:5px;
-    margin-bottom:5px;
+    right:0px;
+    bottom:0px;
 }
 
 #delete, #clear {
