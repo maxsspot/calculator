@@ -10,47 +10,49 @@
     <body onload = "buttonsWork()">
         <br><br>
             <input id = "calculations" readonly />
-        <br><br><br><br><br>
-        <div id = "extraKeys"><br>
+        <br>
+        <div id = "keyList">
+            <div id = "extraKeys"><br>
+                <div class = "row">
+                    <button class = "functionButton">sqrt(</button>
+                    <button class = "functionButton">sin(</button>
+                    <button class = "functionButton">cos(</button>
+                    <button class = "functionButton">tan(</button>
+                </div>
+                <div class = "row">
+                    <button class = "functionButton">^</button>
+                    <button class = "functionButton" id = "leftParen">(</button>
+                    <button class = "functionButton" id = "rightParen">)</button>
+                    <button class = "functionButton" id = "delete">DEL</button>
+                    <button class = "functionButton" id = "clear">C</button>
+                </div>
+            </div><br>
             <div class = "row">
-                <button class = "functionButton">sqrt(</button>
-                <button class = "functionButton">sin(</button>
-                <button class = "functionButton">cos(</button>
-                <button class = "functionButton">tan(</button>
+                <button class = "numericalButton">7</button>
+                <button class = "numericalButton">8</button>
+                <button class = "numericalButton">9</button>
+                <button class = "functionButton">/</button>
             </div>
             <div class = "row">
-                <button class = "functionButton">^</button>
-                <button class = "functionButton" id = "leftParen">(</button>
-                <button class = "functionButton" id = "rightParen">)</button>
-                <button class = "functionButton" id = "delete">DEL</button>
-                <button class = "functionButton" id = "clear">C</button>
+                <button class = "numericalButton">4</button>
+                <button class = "numericalButton">5</button>
+                <button class = "numericalButton">6</button>
+                <button class = "functionButton">*</button>
             </div>
-        </div><br>
-        <div class = "row">
-            <button class = "numericalButton">7</button>
-            <button class = "numericalButton">8</button>
-            <button class = "numericalButton">9</button>
-            <button class = "functionButton">/</button>
+            <div class = "row">
+                <button class = "numericalButton">1</button>
+                <button class = "numericalButton">2</button>
+                <button class = "numericalButton">3</button>
+                <button class = "functionButton">-</button>
+            </div>
+            <div class = "row">
+                <button class = "numericalButton">0</button>
+                <button class = "numericalButton">.</button>
+                <button class = "equalButton">=</button>
+                <button class = "functionButton">+</button>
+            </div>
+            <span id = "extraKeysControls">Hide Extra Keys ▼</span>
         </div>
-        <div class = "row">
-            <button class = "numericalButton">4</button>
-            <button class = "numericalButton">5</button>
-            <button class = "numericalButton">6</button>
-            <button class = "functionButton">*</button>
-        </div>
-        <div class = "row">
-            <button class = "numericalButton">1</button>
-            <button class = "numericalButton">2</button>
-            <button class = "numericalButton">3</button>
-            <button class = "functionButton">-</button>
-        </div>
-        <div class = "row">
-            <button class = "numericalButton">0</button>
-            <button class = "numericalButton">.</button>
-            <button class = "equalButton">=</button>
-            <button class = "functionButton">+</button>
-        </div>
-        <span id = "extraKeysControls">Hide Extra Keys ▼</span>
         <script src = "index.js"></script>
     </body>
 </html>
