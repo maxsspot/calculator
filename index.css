@@ -8,8 +8,7 @@
 
 body {
     background-color:#35454f;
-    
-    /*overflow:hidden;*/
+    overflow:hidden;
     text-align:center;
     width:100%;
     transition:all 0.25s;
