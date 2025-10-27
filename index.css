@@ -20,7 +20,7 @@ body {
     font-size:larger;
     background-color:black;
     border:transparent;
-    text-indent:15px;
+    text-indent:-15px;
     text-align:right;
     padding:5px;
     transition:all 0s;
