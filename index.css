@@ -87,7 +87,12 @@ button {
 }
 
 #keyList {
+    position:fixed;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
     background-color:blue;
     width:fit-content;
-    margin:auto;
+    margin:0;
+    padding:10px;
 }
