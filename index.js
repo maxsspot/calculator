@@ -19,8 +19,6 @@ function buttonsWork() {
                     calculations.value="Error";
                 }
             }
-
-            //calculations.scrollLeft = calculations.scrollWidth - calculations.clientWidth;
         }
     }
 
