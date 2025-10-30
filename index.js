@@ -46,6 +46,8 @@ function buttonsWork() {
         }
     }
 
+    console.log(possibleKeys)
+
     document.body.onkeyup = function(event){
         if(event.key in possibleKeys && event.key != "C") {
             calculations.value+=event.key
