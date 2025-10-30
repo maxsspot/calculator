@@ -42,11 +42,10 @@ function buttonsWork() {
     
     for(i=0;i<buttons.length;i++) {
         if(buttons[i].textContent.length == 1) {
+            console.log(i+": "+buttons[i.textContent])
             possibleKeys.push(buttons[i.textContent]);
         }
     }
-
-    console.log(possibleKeys)
 
     document.body.onkeyup = function(event){
         if(event.key in possibleKeys && event.key != "C") {
