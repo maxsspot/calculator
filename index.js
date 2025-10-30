@@ -3,7 +3,8 @@ function buttonsWork() {
     const calculations = document.getElementById("calculations");
     const showExtraKeys = document.getElementById("extraKeysControls");
     let isOpen = true;
-
+    possibleKeys = []
+    
     for (i=0;i<buttons.length;i++) {
         buttons[i].onclick = function () {
             if (this.textContent == "DEL") {
@@ -38,4 +39,16 @@ function buttonsWork() {
         document.getElementById("delete").style.visibility="visible";
         document.getElementById("clear").style.visibility="visible";
     }
+    
+    for(i=0;i<buttons.length;i++) {
+        if(buttons[i].length == 1) {
+            possibleKeys.push(buttons[i]);
+        }
+    }
 }
+
+document.body.onkeyup = function(possibleKeys, calculations, event){
+    if(event.key in possibleKeys && event.key != "C") {
+        calculations.value+=event.key
+    }
+};
