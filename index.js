@@ -45,10 +45,10 @@ function buttonsWork() {
             possibleKeys.push(buttons[i]);
         }
     }
-}
 
-document.body.onkeyup = function(possibleKeys, calculations, event){
-    if(event.key in possibleKeys && event.key != "C") {
-        calculations.value+=event.key
-    }
-};
+    document.body.onkeyup = function(event){
+        if(event.key in possibleKeys && event.key != "C") {
+            calculations.value+=event.key
+        }
+    };
+}
