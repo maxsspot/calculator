@@ -41,8 +41,9 @@ function buttonsWork() {
     }
     
     for(i=0;i<buttons.length;i++) {
-        console.log(buttons[i]);
-        possibleKeys.push(buttons[i]);
+        if(buttons[i].textContent.length == 1) {
+            possibleKeys.push(buttons[i.textContent]);
+        }
     }
 
     console.log(possibleKeys)
