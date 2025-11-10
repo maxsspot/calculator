@@ -57,7 +57,7 @@ function buttonsWork() {
             }
         } else if (event.key == "Backspace") {
             calculations.value = calculations.value.slice(0,-1);
-        } else if (event.key == "C") {
+        } else if (event.key.toLowerCase() == "c") {
             calculations.value="";
         }
     };
