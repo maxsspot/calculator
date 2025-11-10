@@ -50,7 +50,7 @@ function buttonsWork() {
         console.log(event.key)
         if(possibleKeys.includes(event.key) && event.key != "C" && event.key != "=") {
             calculations.value+=event.key
-        } else if (event.key != "=" || event.key != "Enter") {
+        } else if (event.key == "=" || event.key == "Enter") {
             try {
                 calculations.value=math.evaluate(calculations.value);
             } catch (error) {
