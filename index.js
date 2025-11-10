@@ -46,7 +46,7 @@ function buttonsWork() {
         }
     }
 
-    document.body.onkeyup = function(event){
+    document.body.onkeydown = function(event){
         if(possibleKeys.includes(event.key) && event.key != "C" && event.key != "=") {
             calculations.value+=event.key
         } else if (event.key == "=" || event.key == "Enter") {
