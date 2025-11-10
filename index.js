@@ -56,6 +56,10 @@ function buttonsWork() {
             } catch (error) {
                 calculations.value="Error";
             }
+        } else if (event.key == "Backspace") {
+            calculations.value = calculations.value.slice(0,-1);
+        } else if (event.key == "C") {
+            calculations.value="";
         }
     };
 }
